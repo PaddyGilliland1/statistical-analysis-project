@@ -95,7 +95,3 @@ pip freeze > requirements.txt
 ## Notes on the brief
 
 [TO WRITE: the notes on contradictions C1, C2, C3, C12 and C14]
-
-## Reflections
-
-[TO WRITE: one ### heading per reflection question in the brief, each answered in your own words.]
