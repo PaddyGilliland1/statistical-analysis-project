@@ -13,20 +13,31 @@ draws three visual models, fits one statistical model and runs one hypothesis te
 - Name: Check when large businesses pay their suppliers, the GOV.UK payment practices reports
   (all published reports)
 - Source: <https://www.gov.uk/check-when-businesses-pay-invoices>
-- Export: <https://check-payment-practices.service.gov.uk/export/csv/>, downloaded on 6 Oct 2026
 - Licence: Open Government Licence v3.0,
   <https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/>, as stated on the
   service page
-- File: `all_published_reports_20261006.csv`, 103,043,357 bytes, SHA-256
-  `f9f2552222190b9c5f1ca145cdc1771ac88ba81c38fcfef49fe64c3b696db535`
-- The CSV is not in this repository, because at 103 MB it is too large to keep in Git. It is in
-  the submission zip.
 
 [TO WRITE: the source category note]
 
 [TO WRITE: the regime note]
 
 Contains public sector information licensed under the Open Government Licence v3.0.
+
+## Data
+
+- Export: <https://check-payment-practices.service.gov.uk/export/csv/>
+- Downloaded: 6 Oct 2026
+- File: `all_published_reports_20261006.csv`
+- Size: 103,043,357 bytes (103 MB)
+- SHA-256: `f9f2552222190b9c5f1ca145cdc1771ac88ba81c38fcfef49fe64c3b696db535`
+
+The CSV is not in this repository because at 103 MB it is large raw data, which does not belong
+in Git history, so it is supplied in the submission zip instead.
+
+To place it, copy `all_published_reports_20261006.csv` from the submission zip into the
+repository folder, beside `analysis.ipynb`, and keep its name. The export link above gives every
+report published up to the day you use it, so a new download will be a different file. The
+notebook's first check compares the file's SHA-256 with the one above and stops if they differ.
 
 ## How to run
 
@@ -62,9 +73,7 @@ install on older versions. The notebook was run with Python 3.12.3. Check yours 
    ```
 
 4. Copy `all_published_reports_20261006.csv` from the submission zip into the repository folder,
-   beside the notebook. The export link above gives every report published up to the day you
-   download it, so a new download will not be the same file. The notebook's first check compares
-   the file's SHA-256 with the one above and stops if they differ.
+   beside the notebook, as the Data section above describes.
 
 5. Open the notebook, then restart the kernel and run all cells:
 
