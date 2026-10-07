@@ -27,16 +27,16 @@ portal.
 
 The export labels each report Regime-1, Regime-2 or Regime-3, and I found no definition of the
 labels on the publisher's pages. From the dates and the legislation, I infer that Regime-1 reports
-were filed under the original 2017 rules. The other two were filed under amendments that
-apply from 2025 (statutory instruments SI 2024/444 and SI 2025/75). One amendment, SI 2024/444
-(regulation 2(4)(d)), changed when a payment counts as made where a finance provider is involved.
-So the analysis table (one row per company that reported in both periods), the three visual
-models, the fitted model and the hypothesis test use Regime-1 reports only, and every figure they compare is measured under one definition.
-Initial data analysis warns that variables that are not harmonised can bring "inconsistent
-definitions" and "information bias" (Lusa et al., 2024, p. 26). The
-screening of code breaches and late publication uses every report from all three regimes, so its
-code-breach rates for periods ending in 2025 and 2026 come mostly from Regime-2 and Regime-3
-reports.
+were filed under the original 2017 rules. The other two were filed under amendments that apply from
+2025 (statutory instruments SI 2024/444 and SI 2025/75). One amendment, SI 2024/444 (regulation
+2(4)(d)), changed when a payment counts as made where a finance provider is involved. So the
+analysis table (one row per company that reported in both periods), the three visual models, the
+fitted model and the hypothesis test use Regime-1 reports only, and every figure they compare is
+measured under one definition. Initial data analysis warns that variables that are not harmonised
+can bring "inconsistent definitions" and "information bias" (Lusa et al., 2024, p. 26). The
+screening for breaches of the code standard and late publication uses every report from all three
+regimes, so its breach rates for periods ending in 2025 and 2026 come mostly from Regime-2 and
+Regime-3 reports.
 
 Contains public sector information licensed under the Open Government Licence v3.0.
 
@@ -49,8 +49,8 @@ Contains public sector information licensed under the Open Government Licence v3
 - SHA-256: `f9f2552222190b9c5f1ca145cdc1771ac88ba81c38fcfef49fe64c3b696db535`
 
 The CSV is not in this repository because at 103 MB it is large raw data, which does not belong
-in Git history, and its free-text columns hold contact email addresses. So it is supplied in the
-submission zip instead.
+in Git history, and some of its free-text columns hold contact email addresses. So it is supplied
+in the submission zip instead.
 
 To place it, copy `all_published_reports_20261006.csv` from the submission zip into the
 repository folder, beside `analysis.ipynb`, and keep its name. The export link above gives every
@@ -70,8 +70,9 @@ install on older versions. The notebook was run with Python 3.12.3. Check yours 
    cd statistical-analysis-project
    ```
 
-   If you are working from the submission zip instead, unzip it and move into its folder.
-   The dataset CSV is at the zip's top level, so step 4 copies it from there.
+   If you are working from the submission zip instead, unzip it and move into its one folder.
+   That folder is the repository, with the dataset CSV already beside the notebook, so skip
+   step 4.
 
 2. Create and activate a virtual environment:
 
@@ -133,8 +134,8 @@ break the brief's own limits, and where the rubric cannot settle it, I meet both
   rubric says "One valid hypothesis test". So I designate exactly one, the paired t-test. The
   screening reports counts and rates only, and the other comparisons give means, medians or
   confidence intervals, not further tests.
-- The brief and the rubric's Visualizations row ask for "at least three" visual models, but its
-  Experimental Design row compares "the three different visual models", and its deep learning
+- The brief and the rubric's Visualizations row ask for "at least three" visual models, but the
+  rubric's Experimental Design row compares "the three different visual models", and its deep learning
   rows need a fitted model. So exactly three charts are
   labelled Visual model 1 to 3, and the fitted model's chart is labelled separately.
 
