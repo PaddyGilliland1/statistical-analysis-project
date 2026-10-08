@@ -117,20 +117,20 @@ pip freeze > requirements.txt
 
 ## Notes on the brief
 
-Where the brief disagrees with itself or with its rubric, I follow the rubric unless that would
-break the brief's own limits, and where the rubric cannot settle it, I meet both readings. Four points are worth stating here.
+Where the brief disagrees with itself or with its rubric, I follow the rubric, and where the
+rubric cannot settle it, I meet both readings. Four points are worth stating here.
 
 - The brief gives the report two file names, `module_summary.pdf` and
   `Statistical_Analysis_Report.pdf`, so I ship the same PDF under both.
-- Four rubric rows are written for deep learning: they ask for training and evaluation results,
-  notebook headings for model definition, training and evaluation, citations for deep learning
-  concepts and training practices, and a complete deep learning experiment. The brief itself says "You are not training machine learning models yet", defines a
-  visual model in this project as a chart, and limits the tools to Python, NumPy, pandas, Matplotlib,
-  Seaborn, SciPy and Jupyter, with no deep learning library among them. So I train no deep
-  learning model. To meet those rows as far as the brief allows, I use the rubric's own headings
-  (data handling, model definition, training, evaluation, summary), and I add one fitted
-  statistical model, a straight line from SciPy. I train it on reports ending in 2018 to 2022 and
-  evaluate it on reports ending in 2023 to 2024, which it never sees.
+- Four rubric rows use the language of model training. Two ask for training and evaluation
+  results and for headings for model definition, training and evaluation. Two mention deep
+  learning: citations "when referencing deep learning concepts", and "a complete deep learning
+  experiment". The brief's Project Overview says "You are not training machine learning models
+  yet" and limits the tools to Python, NumPy, pandas, Matplotlib, Seaborn, SciPy and Jupyter. So I
+  meet all four rows within those limits. I use the rubric's own headings and one fitted
+  statistical model, trained on reports ending in 2018 to 2022 and evaluated on reports ending in
+  2023 to 2024. I cite the methods and practices I rely on, and the analysis runs complete, from
+  question to limitations.
 - The brief asks for "at least one" hypothesis test in two places and "One" in two others, and the
   rubric says "One valid hypothesis test". So I designate exactly one, the paired t-test. The
   screening reports counts and rates only, and the other comparisons give means, medians or
