@@ -7,7 +7,8 @@ by large UK companies was lower in 2023 to 2024 than in 2018 to 2019, for the co
 reported in both periods. The data is the GOV.UK payment practices reports, which a large company
 normally publishes for each half of its financial year. The notebook checks, describes and
 screens the data, then draws three visual models, fits one statistical model and runs one
-hypothesis test.
+hypothesis test. It needs Python 3.12 or newer, because the pinned packages require it, and I
+ran it with Python 3.12.3.
 
 ## Dataset
 
